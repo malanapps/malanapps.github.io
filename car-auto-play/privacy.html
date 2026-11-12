@@ -31,7 +31,7 @@
   <header class="doc-head">
     <div class="eyebrow">Legal</div>
     <h1>Privacy Policy</h1>
-    <p class="meta">Effective date: November 9, 2026 · Last updated: November 9, 2026</p>
+    <p class="meta">Effective date: November 9, 2026 · Last updated: November 12, 2026</p>
   </header>
 
   <div class="toc">
@@ -56,12 +56,17 @@
   <h2 id="overview">1. Overview</h2>
   <p>This Privacy Policy explains how Mehmet Alan ("we", "us"), the developer of <strong>Car Auto Play</strong> ("the App"), handles information when you use our iOS application and its Apple CarPlay experience. We built the App with privacy in mind: it works as a media player on your device, and we do not operate accounts or servers that store your personal data.</p>
   <div class="callout">
-    <p><strong>In short:</strong> We do not collect, sell or share your personal information. Your playlists, sources and videos stay on your device.</p>
+    <p><strong>In short:</strong> We do not sell your personal information. Your playlists, sources and videos stay on your device. Subscriptions are managed through RevenueCat, and only if you allow tracking, we share limited app activity and purchase information with Meta to measure our ads.</p>
   </div>
 
   <h2 id="collect">2. Information We Collect</h2>
   <p>We do not require you to create an account, and we do not collect personally identifiable information such as your name, email address, phone number, location or contacts.</p>
-  <p>We do not use third-party advertising or tracking SDKs, and we do not track you across apps or websites.</p>
+  <p>The App uses two third-party services:</p>
+  <ul>
+    <li><strong>RevenueCat (subscription management):</strong> when you buy or restore a subscription, RevenueCat processes an anonymous app user ID, your purchase and subscription history, and technical data such as device model, iOS version and IP address, to unlock and verify Premium.</li>
+    <li><strong>Meta (ad measurement):</strong> only if you allow tracking in the iOS App Tracking Transparency prompt, the App starts the Meta SDK and shares app activity (such as app launches) and purchase events, together with device identifiers such as the advertising identifier (IDFA) and a Meta anonymous ID, so we can measure which of our ads lead to installs and purchases. Purchase events are sent to Meta by RevenueCat. If you do not allow tracking, the Meta SDK is not started and no data is shared with Meta.</li>
+  </ul>
+  <p>You can change this at any time in iOS Settings > Privacy & Security > Tracking. When you withdraw permission, the App stops sending data to Meta and removes the advertising identifiers it provided to RevenueCat.</p>
   <p>If you contact us by email, we will receive your email address and the contents of your message, which we use only to respond to you.</p>
 
   <h2 id="local">3. Data Stored on Your Device</h2>
@@ -78,25 +83,39 @@
   <p>When you play an M3U playlist or Xtream source, the App connects directly from your device to the server you provided. Those servers are operated by third parties, not by us. They may receive technical information such as your IP address and request data, governed by their own privacy practices. We encourage you to use only sources you trust.</p>
 
   <h2 id="mirroring">5. Screen Mirroring</h2>
-  <p>The screen mirroring feature displays your iPhone screen on your CarPlay display. The screen content is processed in real time on your device to be shown in your car. We do not record, store or transmit your screen content to us or to any third party.</p>
+  <p>The screen mirroring feature displays your iPhone screen on your CarPlay display. The screen content is processed in real time on your device to be shown in your car. We do not record or store your screen content, and it is sent only to the display you choose, never to us or to other third parties.</p>
 
   <h2 id="permissions">6. Device Permissions</h2>
-  <p>The App may ask for permissions such as access to your Photo Library or Files (to import local videos) or local network access (to reach your media sources). These permissions are used only to provide the features you request, and you can change them at any time in iOS Settings.</p>
+  <p>The App may ask for the following permissions. Each one is used only for the feature you request, and you can change it at any time in iOS Settings:</p>
+  <ul>
+    <li><strong>Photos and Files:</strong> to import local videos and playlists.</li>
+    <li><strong>Camera:</strong> to scan a QR code that adds a media source. Camera images are used only to read the code and are not saved.</li>
+    <li><strong>Local network:</strong> to play media from local servers you add and to send video to a display you choose.</li>
+    <li><strong>Location (while using the App):</strong> to measure speed and trip statistics during an active journey. Location is processed on your device and is not sent to us or to third parties.</li>
+    <li><strong>Screen recording:</strong> only when you start a screen broadcast, to show your screen on the display you choose.</li>
+    <li><strong>Tracking:</strong> see <a href="#collect">section 2</a>.</li>
+  </ul>
 
   <h2 id="apple">7. Apple Services & Purchases</h2>
-  <p>If the App offers in-app purchases, payments are processed entirely by Apple. We do not receive your payment card details. Apple may provide us with anonymous, aggregated statistics (such as crash reports or usage data) if you have chosen to share analytics with developers in your device settings. Such data is handled under <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's Privacy Policy</a>.</p>
+  <p>If the App offers in-app purchases, payments are processed entirely by Apple. Subscription status and purchase history are managed on our behalf by RevenueCat, Inc. (see <a href="#collect">section 2</a> and <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">RevenueCat's Privacy Policy</a>). We do not receive your payment card details. Apple may provide us with anonymous, aggregated statistics (such as crash reports or usage data) if you have chosen to share analytics with developers in your device settings. Such data is handled under <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's Privacy Policy</a>.</p>
 
   <h2 id="sharing">8. Data Sharing</h2>
-  <p>We do not sell, rent or share personal information with third parties. We may disclose information only if required by law, and only to the extent we actually hold it.</p>
+  <p>We do not sell your personal information. We share data only with:</p>
+  <ul>
+    <li>RevenueCat, to provide and verify subscriptions;</li>
+    <li>Meta Platforms, for ad measurement, and only if you allow tracking (<a href="https://www.facebook.com/privacy/policy" target="_blank" rel="noopener">Meta's Privacy Policy</a>);</li>
+    <li>authorities, if required by law.</li>
+  </ul>
+  <p>Under some laws (for example the CCPA), sharing data with Meta for ad measurement may count as "sharing" for advertising. You can opt out at any time by turning off tracking for the App in iOS Settings.</p>
 
   <h2 id="security">9. Security</h2>
-  <p>Data stored by the App is protected by the security features of iOS. Because we do not keep your data on our own servers, the risk of a data breach on our side is minimized. Please keep your device secure with a passcode.</p>
+  <p>Data stored by the App is protected by the security features of iOS. We do not operate our own servers for your data; the third-party services listed above protect the data they process under their own security programs. Please keep your device secure with a passcode.</p>
 
   <h2 id="children">10. Children's Privacy</h2>
   <p>The App is not directed at children under 13, and we do not knowingly collect personal information from children. If you believe a child has provided us information, please contact us and we will delete it.</p>
 
   <h2 id="rights">11. Your Rights</h2>
-  <p>Depending on where you live (for example under the GDPR, KVKK or CCPA), you may have rights to access, correct or delete your personal data. Since we do not collect personal data through the App, most data can be managed or deleted directly on your device. For any request related to emails you sent us, contact us using the link below.</p>
+  <p>Depending on where you live (for example under the GDPR, KVKK or CCPA), you may have rights to access, correct or delete your personal data. Data stored by the App can be deleted on your device or by deleting the App. You can withdraw tracking permission in iOS Settings > Privacy & Security > Tracking. To request access to or deletion of data held by RevenueCat or Meta in connection with the App, contact us and we will forward your request. For any request related to emails you sent us, contact us using the link below.</p>
 
   <h2 id="changes">12. Changes to This Policy</h2>
   <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated "Last updated" date. Continued use of the App after changes means you accept the updated policy.</p>
